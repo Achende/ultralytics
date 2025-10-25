@@ -1,0 +1,13 @@
+# 训练过程查找使用
+
+path: ./datasets
+train: train.txt
+val: val.txt
+test: test.txt
+
+# Classes
+names:
+    0: target
+
+
+kpt_shape: [4, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
